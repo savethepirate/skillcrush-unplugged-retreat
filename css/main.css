@@ -103,7 +103,8 @@ textarea {
    ========================================================================== */
  /* BASE ALL STYLES */
 .content-wrapper{
-
+    width:90%;
+    margin:50px 0;
 }
  
 /*--------------------- header , footer -------------------*/
@@ -130,12 +131,14 @@ footer .social-icons p{
     align-items:center;
 }
 header nav{
+    width: 60%;
     display:flex;
     justify-content: space-around;
     align-items:center;
     flex-flow:row wrap;
 }
 header nav ul{
+    width:100%;
     display:flex;
     justify-content:space-around;
 }
@@ -144,12 +147,37 @@ header .content-wrapper{
     justify-content:center;
     align-items:center;
     flex-flow:row wrap;
+    margin: 0;
+}
+footer .content-wrapper{
+    width:55%;
+    margin:50px 0;
+}
+.header-divider{
+    width:100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+}
+header{
+    padding: 15px 0;
+}
+footer p{
+    margin: 0;
+}
+footer{
+    flex-direction: column;
+}
+footer .contact{
+    margin-bottom:50px;
+}
+footer .copyright{
+    margin:20px 0;
 }
 /*----------------------- hero , signup , aside ---------------------*/
 .hero-area{
     display:flex;
-    justify-content: flex-start;
-    align-items:center;
+    justify-content: center;
+    
     flex-flow:row wrap;
     
 }
@@ -158,6 +186,7 @@ aside{
     justify-content:center;
     align-items:center;
     flex-flow:row wrap;
+    
 }
 
 
@@ -167,12 +196,23 @@ aside{
     display:flex;
     justify-content:center;
     flex-flow:row wrap;
+    
+}
+.features h2{
+    margin-bottom:60px;
 }
 .features .features-items{
     display:flex;
     justify-content:center;
     align-items:center;
     flex-flow: row wrap;
+}
+.features article{
+    width: 55%;
+    margin-bottom:30px;
+}
+.features p{
+    margin:0;
 }
 
 /*------------------------------ reviews --------------------------*/
@@ -181,7 +221,13 @@ aside{
     justify-content:center;
     flex-flow:row wrap;
 }
-
+.reviews h2{
+    margin-bottom:40px;
+}
+.reviews h3{
+    width: 55%;
+    margin:20px 0;
+}
 
 /*-------------------------------faq------------------------------------*/
 .faq{
@@ -195,6 +241,13 @@ aside{
     justify-content:center;
     align-items:center;
     flex-flow:row wrap;
+    margin: 50px 0 0 0;
+}
+.faq h2{
+    margin-bottom: 40px;
+}
+.faq-content{
+    margin-bottom: 50px;
 }
 /* -------------------------------mission , contact section ----------------------------*/
 .contact-section{
@@ -208,6 +261,9 @@ aside{
     justify-content:center;
     align-items:center;
     flex-flow: row wrap;
+}
+.contact-content p{
+    margin: 0;
 }
 
 
